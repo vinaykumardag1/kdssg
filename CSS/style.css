@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.nav-top{
+    background: #363535;
+}
+.contact-details-list{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   font-size: 18px;
+   gap: 10px;
+   color: #fff;
+  
+}
+.contact-details-list img{
+    height: 40px;
+    width: 40px;
+
+}
+.contact-details-list li:nth-child(2){
+    border-left: 2px solid #ffff;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+@media screen  and (max-width:575px) {
+    .contact-details-list li:nth-child(2){
+        margin-left: 2px;
+        padding-left: 2px;
+    }
+    .contact-details-list{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        color: #fff;
+       
+     }
+}
+                                         /* navbar  */
+
+
+.navbar-container{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background-color: #fff;
+}
+
+.navbar img{
+    height: 70px;
+    
+}
+
+.explore-btn button {
+    background: rgb(215, 6, 6);
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5vw;
+    margin-left: 70px;  
+   
+}
+
+.nav-item a{
+    font-size: 23px;
+    font-weight: 400;
+    color: #575353;
+    margin-left: 10px;
+} 
+@media screen and  (max-width:575px){
+    .explore-btn button {
+        margin-left: 0px;
+        width: 100%;  
+        text-align: start;  
+    }
+    .explore-btn button{
+       font-size: 20px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+    .explore-btn button{
+        margin-left: 0px;
+        width: 100%;
+        text-align: start;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+    .nav-item a{
+        font-size: 1.3vw;
+        font-weight: 400;
+        color: #575353;  
+        font-weight: bold;
+    } 
+    .explore-btn button{
+        margin-left: 10px;
+        width: 100%;
+        text-align: start;
+    }
+}
+
+
+
+
+                                           /* alert box */
+
+.kdssg-alert .container{
+    display: flex;
+    justify-content: end;
+}
+.alert{
+    width: 50%;
+    background-color: #e61111;
+    height: 60px;
+    position: relative;   
+}
+.alert::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    right: 99%;
+    border-bottom: 60px solid #fff;
+    border-right: 60px solid  #e61111;
+
+
+}
+.alert p{
+    color: #ffff;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2vw;
+
+} 
+.alert span{
+    border-left: 1px solid #fff;
+    padding-left: 10px;
+}
+.alert button{
+    background-color: #ffbfbf;
+    margin-right: 10px;
+    height:5px;
+    margin-top: 5px;
+}
+@media screen and  (max-width:575px){
+    .alert{
+        width: 90%;
+    }
+   
+    .alert p{
+        text-align: start;
+        font-size: 13px;
+    }
+    .alert span{
+       
+        padding-left: 0px;
+    }
+    
+}
+@media screen and  (min-width:576px) and (max-width:991px){
+    .alert{
+        width: 90%;
+    }
+    .alert p{
+       
+        font-size: 15px;
+    }
+
+}
+
+                                    /* kdssg banner */
+
+.desktop-banner .container{
+    background-image: url('/images/banner-img.png');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right top;
+}
+.banner-text h1{
+  font-weight: 600;
+  font-size: 4vw;
+  
+}
+.banner-text{
+   position: relative;
+   top: 150px;
+   width: 60%;
+
+}
+
+
+
+.join-button button{
+    background: #ff0000;
+    height: 80px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 35px;
+    color: #fff1f1;
+    font-weight: 500;
+    border:none;
+    outline: none;  
+}
+
+
+
+@media screen and  (max-width:767px){
+    .desktop-banner{
+        display: none;
+    }
+    .banner-text-media h1{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .banner-text-media{
+        margin: 40px 0px;
+    }
+    .banner-text-media button{
+        background: #ff0000;
+        height: 70px;
+        width: 250px;
+        border-radius: 1px;
+        font-size: 35px;
+        color: #fff1f1;
+        font-weight: 500;
+        border:none;
+        outline: none; 
+        margin-bottom: 40px;
+    }    
+    
+}
+@media screen and (min-width:768px){
+    .media-banner{
+        display: none;
+    }
+}
+
+
+ 
+                                         /* about Us */
+
+
+.container-background{
+    background: #e61111;   
+}
+.box-data{
+    border: 20px solid #fff;
+    margin: 50px 0px;
+    height: 400px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;    
+}
+
+
+.box-data-position h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff1f1;  
+    background-color: #e61111;
+    border: none;
+    position: absolute;
+    left: 100px;
+    width: 100%; 
+    top: 100px;
+}
+.box-paragraph{
+   margin-top: 60px;
+}
+.box-paragraph p{
+    font-size: 3vw;
+    color: #fff1f1;
+}
+.about-paragraph p{
+    font-size: 20px;
+    color: #fff1f1;
+  
+}
+.banner-accordion button{
+    height: 60px;
+    font-size: 30px;
+    background-color: #ff2a2a;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    margin: 30px ;
+}
+
+.readmoreabout-btn button{
+        height: 60px;
+        font-size: 30px;
+        background-color: #ff2a2a;
+        outline: none;
+        border: none;
+        color: #ffffff;
+        margin: 30px ;
+    }
+
+.banner-accordion p{
+    color: #fff;
+}
+
+.box-paragraph span{
+   margin-left: 40px;
+   font-size: 30px;
+   color: #fff;
+   margin-bottom: 20px;
+}
+@media screen and (min-width:411px) and (max-width:575px){
+    .banner-accordion button{
+        font-size: 20px;
+        left: 40px;
+    }
+    .box-paragraph span{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .box-data-position h2{
+        font-size: 30px;
+        top: 40px;
+        left: 40px;
+    }
+    .box-data{
+        width: 250px;
+        height: 250px;
+        margin:30px;
+    }
+    .box-paragraph p{
+        font-size: 35px;
+    }
+    .box-paragraph span{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+    .box-paragraph p{
+        font-size: 50px;
+    }
+    .box-paragraph span{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:410px) {
+    .box-data{
+       width: 200px;
+       height: 200px;
+
+    }
+    .box-data-position h2{
+        font-size: 20px;
+        top: 40px;
+        left: 20px;
+    }
+    .box-paragraph p{
+        font-size: 30px;
+        color: #fff1f1;
+    }
+    .box-paragraph span{
+        margin-left: 0px;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 20px;
+     }
+     .banner-accordion button{
+        font-size: 25px;
+     }
+     .readmoreabout-btn button{
+        font-size: 25px;
+     }
+    
+}
+
+
+
+
+
+                                          /* why kdssg */
+
+.head-title{
+    display: flex;
+    justify-content: start;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 50px 0px;
+}
+.head-title span{
+    color: #e61111;
+}
+
+.ksddg-data{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.accordion{
+    border: 1px solid #e61111;
+}
+.accordion-item button[data-bs-toggle]{
+    font-size: 22px;
+    color:#fff;
+    background-color: #e61111;
+}
+.accordion-body p{
+    font-size: 20px;
+}
+
+
+/*--conclusion-paragraph--*/
+
+
+.trainings-head h3{
+    font-size: 50px;
+    font-weight:bold;
+    color: #e61111;
+    margin: 70px 0px;
+}
+.conclusion-paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+
+/*  */
+.image-container{
+    height: 10px;
+    width: 10px;
+}
+
+
+.card{
+    background-image: linear-gradient(137deg, #FFFFFF 0%, #FFFFFF 30%, #F6F6F6 69%, #ececec 100%);  
+}
+
+.card-text{
+    margin-left: 16px;
+}
+.card-text p{
+    font-size: 16px;
+}
+.card-top-image img{
+    object-fit: cover;
+}
+.cardbackground-img{
+  background-image: url(/images/cardbackground.jpg);
+  background-repeat: no-repeat;
+  height:50px;
+  width: 100%;
+  background-size: contain;
+  margin: 40px 0px; 
+  
+}
+
+.cardbackground-img p{
+    color: #fff;
+    font-size: 15px;
+}
+.cardbackground-img{
+   padding: 10px 0px 0px 10px;
+
+}
+.training-details img{
+    height: 30px;
+    width: 30px;
+}
+.training-details li{
+    display: flex;
+    gap: 20px;
+}
+.timing li{
+    display: flex;
+    gap: 20px;
+}
+.card-text h2{
+   font-size: 30px;
+   font-weight: 700;
+}
+@media screen and (max-width:579px){
+    .cardbackground-img p{
+        color: #fff;
+        font-size: 17px;
+    }
+}
+
+
+/* carousel section */
+
+
+.carousel-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.carousel-head p{
+    font-size: 50px;
+    font-weight: 500;
+    color: #272525;
+}
+
+.carousel-image img{
+    width:85%;
+    height: 600px;   
+}
+
+.student-details{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.student-name{
+    display: flex;
+    gap: 20px;
+}
+.student-name img{
+    height: 50px;
+    width: 50px;
+}
+.student-name {
+    font-size: 40px;
+    font-weight: 500;
+}
+.student-work-place{
+    display: flex;
+    gap: 20px;
+}
+.student-work-place img{
+    height: 70px;
+    width: 70px;
+}
+.student-work-place {
+    font-size: 30px;
+}
+.student-work-place span{
+    font-size: 40px;
+    font-weight: 550;
+}
+.student-data p{
+    font-size: 25px;
+    font-weight: 0;
+}
+
+.carousel-btn button{
+    background-color: #e61111;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 180px;
+} 
+
+.carousel-indicators [data-bs-target]{
+    background: #ff0000;
+    border-radius: 50%;
+    height: 1px;
+    width: 15px;
+    padding: none;
+    
+} 
+@media screen and (max-width:575px) {
+   
+    .student-name {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .student-work-place {
+        font-size: 25px;
+    }
+    .student-data p{
+        font-size: 20px;
+        font-weight: 0;
+        margin-left: 30px;
+    }
+    .carousel-image img{
+        height: 500px;
+    }
+    
+
+
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+    .student-data p{
+        font-size: 20px;
+        font-weight: 0;
+    }
+    .student-work-place {
+        font-size: 25px;
+    }
+    .student-name {
+        font-size: 30px;
+        font-weight: 500;
+    }
+   
+}
+@media screen and  (min-width:768px) and (max-width:991){
+   
+    .student-data p{
+        font-size: auto;
+        font-weight: 0;
+    }
+    .student-work-place {
+        font-size: auto;
+    }
+    .student-name {
+        font-size: auto;
+        font-weight: 500;
+    }
+}
+
+/* video review */
+
+.background-section .container-fluid{
+    background-color:  #e61111;
+    height: 500px;
+    overflow: hidden;
+}
+
+.img-con-head p{
+  font-size: 60px;
+  color: #ffffff;
+}
+.img-con-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:40px 0px ;
+}
+
+.video-review img{
+    height:500px;
+    width: 800px;
+}
+.image-container {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.white-qoute-image img{
+    height: 80px;
+    width: 80px;
+}
+
+@media screen and (max-width:575px){
+    .video-review img{
+      width: 300px;
+      height:200px;
+    }
+    .image-container{
+        margin: 0;
+    }
+    .background-section .container-fluid{
+        height: 500px;
+        margin: 0;
+    }
+    .img-con-head p{
+        font-size: 30px;
+    }
+    .white-qoute-image img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (min-width:576px) and (max-width:1400px){
+    .video-review img{
+        width:500px;
+        height: auto;
+       
+    }
+    .white-qoute-image img{
+        height: 40px;
+        width:40px;
+    }
+    .img-con-head p{
+        font-size: 30px;
+        color: #ffffff;
+      }
+}
+/*registration form  */
+
+.registration-form input,select{
+    margin: 15px 0px;
+}
+.form-control,.form-select{
+    border: 1px solid #302f2f;
+}
+.course-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.course-heading p{
+    font-size: 40px;
+    font-weight: 500;
+    color: #e61111;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    padding: 30px ;   
+}
+.submit-btn button{
+    width: 150px;
+    border-radius: 5px;
+    height: 70px;
+    border: none;
+    outline: none;
+    background: #ff0000;
+    color: #fff1f1;
+    font-size: 20px;
+}
+.submit-btn button:hover{
+    background-color: #ff0000;
+    color: #ffff;
+}
+
+@media screen  and (max-width:575px){
+    .course-heading p{
+        font-size: 30px;
+    }
+
+}
+/*footer section */
+
+.footer{
+    background-color: #363535; 
+    color: #ffffff;
+    padding-left: 40px;
+}
+
+.footer-logo{
+   font-size:30px;
+   margin: 30px 0px;
+}
+.location{
+    font-size: 22px;
+    margin: 50px 0px;
+    font-weight: 300;
+}
+.contact-details p{
+    font-size: 50px;
+    margin: 30px 0px;
+}
+.contact-details li{
+   font-size: 25px;
+}
+.social-media-icons{
+    margin: 50px 0px;
+}
+.social-media-icons ul{
+    display: flex;
+    gap: 25px;
+
+}
+.social-media-icons li{
+    border-right: 4px solid #454242a5;
+    padding-right: 20px;
+}
+.social-media-icons li:nth-child(4){
+    border: none;
+}
+
+
+@media screen and (max-width:565px){
+    .social-media-icons ul{
+        display: flex;
+        gap: 1px;
+    }
+    .social-media-icons li{
+        padding-right: 2px;
+    }
+    .footer-logo{
+        font-size:20px;
+    }
+    .location{
+        font-size: 18px;
+    }
+    .contact-details p{
+        font-size: 30px;
+    }
+    .contact-details li{
+       font-size: 15px;
+    }
+
+}
+
+
+/* footer end section */
+
+.footer-end-section{
+    background: #4b4b4b;
+}
+.footer-copy-right p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+  
+}
+
+.footer-end p{
+    color: #ffff;
+    font-size: 15px;
+}
+.footer-end span{
+    font-size: 25px;
+}
+
+
+
+

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="phone-icon" transform="translate(-11 -10)">
+    <rect id="Bg_Supp." data-name="Bg Supp." width="50" height="50" transform="translate(11 10)" fill="#ff601c" opacity="0"/>
+    <path id="phone-icon-2" data-name="phone-icon" d="M22.371,20.056c-1.8,1.8-1.8,3.6-3.6,3.6s-3.6-1.8-5.4-3.6-3.6-3.6-3.6-5.4,1.8-1.8,3.6-3.6-3.6-7.2-5.4-7.2-5.4,5.4-5.4,5.4c0,3.6,3.7,10.9,7.2,14.4s10.8,7.2,14.4,7.2c0,0,5.4-3.6,5.4-5.4s-5.4-7.2-7.2-5.4Z" transform="translate(19.429 17.144)" fill="#fff"/>
+  </g>
+</svg>

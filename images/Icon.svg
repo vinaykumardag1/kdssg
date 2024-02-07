@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <g id="Icon" transform="translate(-0.073 -0.096)">
+    <rect id="Bg" width="31" height="31" transform="translate(0.073 0.096)" fill="#fff" opacity="0"/>
+    <g id="profile-icon" transform="translate(7.487 5.797)">
+      <path id="Subtraction" d="M16.194,9.058H0V5.9A8.021,8.021,0,0,1,2.551,0,7.835,7.835,0,0,0,8.1,2.282,7.836,7.836,0,0,0,13.643,0a8.02,8.02,0,0,1,2.55,5.9V9.057Z" transform="translate(0 10.658)" fill="#e71013"/>
+      <path id="Path" d="M5.059,0A5.059,5.059,0,1,1,0,5.059,5.059,5.059,0,0,1,5.059,0Z" transform="translate(3.038 0)" fill="#e71013"/>
+    </g>
+  </g>
+</svg>

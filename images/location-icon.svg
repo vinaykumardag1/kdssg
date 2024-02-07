@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="location-icon" transform="translate(0 0.333)">
+    <rect id="Bg_Supp." data-name="Bg Supp." width="50" height="50" transform="translate(0 -0.333)" fill="#ff601c" opacity="0"/>
+    <path id="location-icon-2" data-name="location-icon" d="M22.209,3A14.7,14.7,0,0,0,7.5,17.709c0,11.032,14.709,27.317,14.709,27.317S36.918,28.741,36.918,17.709A14.7,14.7,0,0,0,22.209,3Zm0,19.962a5.253,5.253,0,1,1,5.253-5.253A5.255,5.255,0,0,1,22.209,22.962Z" transform="translate(2.5 0.666)" fill="#fff"/>
+  </g>
+</svg>
