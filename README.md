@@ -30,7 +30,7 @@ Git
 ### Connect with Me 🌍
 
 - Instagram: [@Dagguapti Vinay].(https://www.instagram.com/daggupati_vinay/)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/vinay-kumar-daggupati-b3141224b/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/vinay-kumar-daggupati-b3141224b/)
 - Email: [vinaykumardag1@gmail.com](mailto:vinaykumardag1@gmail.com)
 
 Feel free to reach out for collaborations or just a friendly chat!
